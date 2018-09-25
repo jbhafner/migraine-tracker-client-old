@@ -1,0 +1,27 @@
+{
+  "name": "migraine-tracker-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.0.2",
+    "axios": "^0.18.0",
+    "date-fns": "^1.29.0",
+    "jwt-decode": "^2.2.0",
+    "material-ui-next-pickers": "0.0.12",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5",
+    "redux": "^4.0.0",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "proxy": "http://localhost:3026",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
